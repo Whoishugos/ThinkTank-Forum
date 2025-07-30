@@ -1,0 +1,68 @@
+.h-32px {
+    height: 32px;
+}
+.navbar-nav {
+   .nav-link.active {
+    color: $white;
+    font-weight: bold;
+   }
+   nav-link {
+    color: $white;
+    &:hover {
+      color: $gray-200;
+    }
+   }
+}
+
+.nav-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+@include media-breakpoint-up(sm) {
+    .navbar-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.btn-primary-white {
+    background-color: $white;
+    color: $maroon;
+    border-radius: 50px;
+    padding: 10px 24px;
+    min-width: 128px;
+
+    &:hover {
+        background-color: $gray-100;
+        color: $maroon;
+    }
+}
+
+.btn-primary {
+    background-color: $maroon;
+    border-color: $maroon;
+    color: $white;
+    border-radius: 50px;
+    padding: 10px 24px;
+    min-width: 128px;
+    &:hover {
+        color: $white;
+    }
+}
+.btn-secondary {
+    background-color: $white;
+    border-color: $maroon;
+    color: $maroon;
+    border-radius: 50px;
+    padding: 10px 24px;
+    min-width: 128px;
+    &:hover {
+        color: $white;
+        background-color: $maroon;
+        border-color: $maroon;
+    }
+}
+
+.h-315px {
+    height: 315px;
+}
