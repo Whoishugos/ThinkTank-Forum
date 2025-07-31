@@ -66,3 +66,59 @@
 .h-315px {
     height: 315px;
 }
+
+.min-h-372px {
+    min-height: 372px;
+}
+
+.bg-gray {
+    background-color: $gray-100;
+}
+
+.py-80px {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.card {
+    border: none;
+    border-radius: 20px;
+    padding: 24px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.text-bg-light {
+    &:hover {
+        color: $maroon !important;
+    }
+}
+.color-gray {
+    color: $gray-500;
+}
+.card-avatar-sm {
+    width: 18px;
+    height: 18px;
+}
+
+.avatar-sm-wrapper {
+    height: 18px;
+    width: 18px;
+}
+
+.avatar {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+footer {
+    background-color: $gray-900;
+
+}
+.me-140px {
+    margin-right: 140px;
+}
