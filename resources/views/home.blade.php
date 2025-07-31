@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.auth')
 
-        <title>ThinkTank-Forum</title>
-
-       @vite(['resources/scss/app.scss', 'resources/js/app.js'])
-
-    </head>
-   <body>
     <nav class="navbar navbar-dark navbar-expand-lg bg-danger">
   <div class="container flex justify-content-between">
     <a class="navbar-link" href="{{ route('home') }}">
@@ -196,8 +186,6 @@
         </div>
     </div>
 </footer>
-
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
    </body>
 </html>
+@endsection
