@@ -31,7 +31,10 @@
                     </form>
                 </div>
                 <div class="text-center">
-                    Don't Have An Account <a href="" class="text-underline"> Sign Up</a>
+                    Don't Have An Account?
+                    <a href="" class="text-underline">
+                    <u>Sign Up</u>
+                    </a>
                 </div>
             </div>
         </div>
