@@ -1,20 +1,12 @@
 <?php
 
+use App\Http\Controllers\Main\DiscussionController;
+use App\Http\Controllers\Main\HomeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Auth::routes();
 
-Route::get('login', function () {
-    return view('auth.login');
-})->name('login');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
-Route::get('register', function () {
-    return view('auth.register');
-})->name('register');
-
-Route::get('discussions', function () {
-    return view('pages.discussions.index');
-})->name('discussions');
+Route::get('discussions', [DiscussionController::class, 'index'])->name('discussions');
